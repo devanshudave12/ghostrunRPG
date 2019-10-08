@@ -1,14 +1,34 @@
 # interesting game summary
-
 " if you love plaing horror game this is a perfect platform you can try"
 "you may meet with 3 gost during the game but don't afraid"
 "intresting part is the gamer will get the help of friendly ghost "
 "help of friendly ghost will be complimentry"
 # starting adventure
-"starting it will explain the game what's the code and how to play"
-"than it will show the "
+"starting it will explain the game  and how to play"
+"than it will show the story of the current situation of the game "
+"then it will be the option to start the game "
+"then when you will start the game you have to defeat the ghost from the house"
 # How to play
-# how will you survive
-# how can you enjoy the game
-# explanation of the code
-# how game will end
+"code that will run the game from making the ghost friend "
+"choosing options from the attack when they see the ghost"
+"or like to choose the religious defending the ghost"
+#code
+"first welcome gestures give to the gamer"
+"then it will show the story of the whole game"
+"making gamer scary"
+"as a starting the game will enter in the house where ghost exist"
+"entering there will be the message from the friendly ghost"
+"friendly ghost is complimentry"
+"friendly ghost will be guiding and giving advice to the gamer"
+"when they will met the bad ghost. the real fight begins"
+"as much as we know we cant fight with ghost with weapons"
+"but in this game we can . so they will be shown some options"
+"1- attack 2- defend"
+"if choose attack and real game starts you have to attack with various weapons"
+"if choose defend then it will defend wirh religious options"
+"then the random picker will choose between the gamer and the ghost"
+"if you won by random pick then its good if not you will have to try again"
+"if choose attack it will run after some seconds it will show result"
+"then the gamer will get some gold coins if lost or won"
+"gold coins is for trying this best coins"
+"thanks and ending gestures will be given  to the gamer"

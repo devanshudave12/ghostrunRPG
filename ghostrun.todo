@@ -1,0 +1,17 @@
+Ghostrun:
+    ✔ pseudocode @done(2019-10-07 22:40) @project(Ghostrun)
+    ✔ Readme file @done(2019-10-07 22:40) @project(Ghostrun)
+    ✔ changelog @done(2019-10-07 22:40) @project(Ghostrun)
+    ✔ create a main game file @done(2019-10-07 22:40) @project(Ghostrun)
+    ✔  uploaded to github @done(2019-10-07 22:41) @project(Ghostrun)
+
+Game:
+    ✔  Name of the game @done(2019-10-07 22:40) @project(Game)
+
+lists:
+    ✔  attack @done(2019-10-07 22:40) @project(lists)
+    ✔  defend @done(2019-10-07 22:40) @project(lists)
+
+classes:
+    ☐ Ghost
+    ☐ map
