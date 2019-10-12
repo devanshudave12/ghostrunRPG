@@ -30,5 +30,5 @@
 "if you won by random pick then its good if not you will have to try again"
 "if choose attack it will run after some seconds it will show result"
 "then the gamer will get some gold coins if lost or won"
-"gold coins is for trying this best coins"
+"gold coins is for trying this game"
 "thanks and ending gestures will be given  to the gamer"
