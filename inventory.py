@@ -61,7 +61,7 @@ defence = {
         },
 
     }
-# describing the values of the dictionary
+# describing the values of the dictionary 
 for defend, defence_info in defence.items():
     print(f"\ndefend: {defend}")
     damage = f"{defence_info['damage']}"
