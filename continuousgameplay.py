@@ -51,5 +51,5 @@ print(f"PRESS QUIT IF YOU WANT TO EXIT****")
 options()
 # while loop for continous game
 while True:
-    action = input(f"Your choice: ")   # taking input
+    action = input(f"Your choice: ")   # taking input from the user 
     action_function(action.lower())
