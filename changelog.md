@@ -1,6 +1,7 @@
 v1.0
 
--added conditions for winning through random picker
+-added menu which continuously loops
+-allows to quit the game 
 
 v1.1
 
@@ -30,4 +31,4 @@ bug fixes
 added a digital  map
 
 v1.7
-added more protection to the list 
+added more protection to the list
