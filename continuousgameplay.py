@@ -33,13 +33,13 @@ def options():
 def action_function(action):
     '''return a input choosen by the user'''
     if action in locations:
-        print(f"Go! " + action.lower())  # prints input if choosen locations
+        print(f"Go! {action.lower()}")  # prints input if choosen locations
 
     elif action in attacks:
         print(f"You have " + action.lower())  # prints input is chooden attack
 
     elif action in defends:
-        print(f"You should be " + action.lower() + "ing")  # defends input
+        print(f"You should be {action.lower()}ing")  # defends input
 
     elif action == "quit":
         quit()      # quit option if want to exit
@@ -51,5 +51,5 @@ print(f"PRESS QUIT IF YOU WANT TO EXIT****")
 options()
 # while loop for continous game
 while True:
-    action = input(f"Your choice: ")   # taking input from the user 
+    action = input(f"Your choice: ")   # taking input from the user
     action_function(action.lower())
