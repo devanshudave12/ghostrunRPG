@@ -1,36 +1,41 @@
 
 
-
-
-
-
-
-
-
-
-
-
-
-rooms = {
-
-            'rest room' : {
+location_map  = { 'Bed room' : {
                   'south' : 'Kitchen',
-                  'east'  : 'main door',
-                  'item'  : 'laserlight'
+                  'east'  : 'Dining Room',
+                  'item'  : 'sword'
                 },
 
             'Kitchen' : {
-                  'north' : 'Hall',
-                  'east'  : 'Bed Room',
-                  'item'  : 'sword'
+                  'north' : 'Bed room',
+                  'east'  : 'Living Room',
+                  'item'  : 'knife'
                 },
-            'Bed Room' : {
-                  'north' : 'Dining Room',
+            'Rest Room' : {
+                  'west'  : 'Bed room',
+                  'south' : 'Living Room',
+                  'east'  : 'Main door',
+                  'item'  : 'laserlight'
+                },
+            'Living Room' : {
+                  'north' : ' Rest Room',
                   'west'  : 'Kitchen',
                   'item'  : 'ghost'
                 },
-            'main door' : {
-                  'west'  : 'rest room' 
+            'Main door' : {
+                  'west'  : 'Dining Room'
             }
+        }
 
-         }
+room = {"Living Room": "Main ghost area",
+          "kitchen": "main weapons area",
+          "bed room": "mainly ghost found",
+          "Rest area": "can have a rest"
+          }
+
+def list_making(dictonary,list):
+    """Create a list from elements of a dictionary"""
+    for x in dictionary:
+        list.append(x)
+
+def
