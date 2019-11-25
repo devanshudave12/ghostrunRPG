@@ -1,32 +1,12 @@
-locations = ['north','south','east','west']
+import sys
+# from tabulate import tabulate
+# import characteristics
+# import map
+# import inventory
+# import continuousgameplay
 
-attacks = ['laser light','sword','knife',]
 
-defends = ['cross sign','pray','run']
+actions = ["quit","map","inventory"]
+choice = input("whichS option would you like to go with: ")
 
-print("GO TO THIS FOLLOWING DIRECTION:")
-for location in locations[:4]:
-    print('* ' + location.title())
-
-print("CHOOSE ONE THE ACTION TO ATTACK:")
-for attack in attacks[:3]:
-    print('* ' + attack.title())
-
-print("CHOOSE ONE OPTION TO DEFEND:")
-for defend in defends[:3]:
-    print('* ' + defend.title())
-
-action = input("your choice: ")
-
-if action in locations:
-    print("go! " + action.title())
-
-elif action in attacks:
-    print("you have " + action.title())
-
-elif action in defends:
-    print("you should" + action.title())
-
-else:
-
-    print("Invalid!")
+    map()
