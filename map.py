@@ -43,4 +43,4 @@ def startgame():
     c.append(b)
     print(tabulate(c, tablefmt="fancy_grid"))   # printing it in a table
 
-startgame()
+# startgame()

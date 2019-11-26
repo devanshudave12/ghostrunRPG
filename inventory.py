@@ -30,19 +30,21 @@ attack = {
         },
 
    }
-# describing each values  from the dictionary with the help of loops
-for attacking, attack_info in attack.items():
-    print(f"\nattacking: {attacking}")
-    damage = f"{attack_info['damage']}"
-    HP = f"{attack_info['HP']}"
-    location = attack_info['location']
-    Description = attack_info['Description']
 
-# prints each values of the dictionary
-    print(f"\tdamage: {damage.title()}")
-    print(f"\tHP: {HP.title()}")
-    print(f"\tLocation: {location.title()}")
-    print(f"\tdescription: {Description.title()}")
+def do_attack():
+    # describing each values  from the dictionary with the help of loops
+    for attacking, attack_info in attack.items():
+        print(f"\nattacking: {attacking}")
+        damage = f"{attack_info['damage']}"
+        HP = f"{attack_info['HP']}"
+        location = attack_info['location']
+        Description = attack_info['Description']
+
+    # prints each values of the dictionary
+        print(f"\tdamage: {damage.title()}")
+        print(f"\tHP: {HP.title()}")
+        print(f"\tLocation: {location.title()}")
+        print(f"\tdescription: {Description.title()}")
 
 # making nested dictionary
 defence = {
@@ -61,18 +63,27 @@ defence = {
         },
 
     }
-# describing the values of the dictionary 
-for defend, defence_info in defence.items():
-    print(f"\ndefend: {defend}")
-    damage = f"{defence_info['damage']}"
-    HP = f"{defence_info['HP']}"
-    location = defence_info['location']
-    Description = defence_info['Description']
 
-#  printing each values of the dictonary after describing
-    print(f"\tdamage: {damage.title()}")
-    print(f"\tHP: {HP.title()}")
-    print(f"\tLocation: {location.title()}")
-    print(f"\tdescription: {Description.title()}")
+def do_defend():
+    # describing the values of the dictionary
+    for defend, defence_info in defence.items():
+        print(f"\ndefend: {defend}")
+        damage = f"{defence_info['damage']}"
+        HP = f"{defence_info['HP']}"
+        location = defence_info['location']
+        Description = defence_info['Description']
 
+    #  printing each values of the dictonary after describing
+        print(f"\tdamage: {damage.title()}")
+        print(f"\tHP: {HP.title()}")
+        print(f"\tLocation: {location.title()}")
+        print(f"\tdescription: {Description.title()}")
+
+
+def start_inven():
+    get_action = input("attack or Defend?: ")
+    if get_action == 'attack':
+        do_attack()
+    elif get_action == 'attack':
+        do_defend()
 print('----------------------------------------------------------------------')
