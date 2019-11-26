@@ -1,9 +1,8 @@
 v1.0
-
 -added menu which continuously loops
 -allows to quit the game
 -added map to the game
--allows user to take input from the user 
+-allows user to take input from the user
 
 v1.1
 
