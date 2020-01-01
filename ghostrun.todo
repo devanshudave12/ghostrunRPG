@@ -13,5 +13,6 @@ lists:
     ✔  defend @done(2019-10-07 22:40) @project(lists)
 
 classes:
-    ☐ Ghost
-    ☐ map
+    ✔ Ghost @done(2019-12-31 22:39) @project(classes)
+    ✔ map @done(2019-12-31 22:39) @project(classes)
+    ✔  main game running  @done(2019-12-31 22:40) @project(classes)
