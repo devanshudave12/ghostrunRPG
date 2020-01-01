@@ -3,12 +3,18 @@ v1.0
 -allows to quit the game
 -added map to the game
 -allows user to take input from the user
+-allows to move in the map
+-allow to fight with ghost
 
 v1.1
 
--adding more Ghost as an Enemy
--adding more advanced weapons
-
+-will be  adding more Ghost as an Enemy
+-will be adding more advanced weapons
+-will be adding better weapons for attack and defend
+-will be adding to fight with ghost instead of randomly fight with health point
+-will be adding to better defend weapon as shown in list
+-will be adding more weapons than in v1.0 has.
+-will be better working game than v1.0.
 v1.2
 
 updated the intro text
