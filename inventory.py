@@ -63,7 +63,6 @@ defence = {
         },
 
     }
-
 def do_defend():
     # describing the values of the dictionary
     for defend, defence_info in defence.items():
