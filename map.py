@@ -18,7 +18,7 @@ def startgame():
     f1 = []
     i = 6    # index is set equal to 6
     # list for locations
-    list = ['start', ['livingroom', 'bathroom', 'kitchen', 'bedroom', "hall"]]
+    list = ['livingroom', 'bathroom', 'kitchen', 'bedroom', "hall"]
     # using loop for printing
     for j in range(1):
         final.append(list[0])  # adding a value in a list
@@ -43,4 +43,5 @@ def startgame():
     c.append(b)
     print(tabulate(c, tablefmt="fancy_grid"))   # printing it in a table
 
-# startgame()
+x = input('where u want to go')
+startgame(x)
